@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Facebook, Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
+
+
   return (
     <footer className="bg-ds-black text-gray-300 pt-14">
       <div className="max-w-7xl mx-auto px-6">
@@ -36,8 +38,8 @@ export default function Footer() {
             title="À propos"
             links={[
               { label: "Qui sommes-nous", href: "/a-propos" },
-              { label: "Contact", href: "/contact" },
-              { label: "Blog", href: "/blog" },
+              { label: "Contact: +225 79 27 51 90", href: "/contact" },
+              { label: "Mail: dselectronique574@gmail.com", href: "/Mail" },
             ]}
           />
           <FooterCol

@@ -1,3 +1,5 @@
+
+export const dynamic = "force-dynamic";
 import Link from "next/link";
 import { Plus, Trash2 } from "lucide-react";
 import { requireAdmin } from "@/lib/supabase/admin-guard";

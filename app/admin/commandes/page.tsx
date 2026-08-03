@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { requireAdmin } from "@/lib/supabase/admin-guard";
 import { formatFcfa } from "@/lib/format";
 import OrderStatusSelect from "./OrderStatusSelect";

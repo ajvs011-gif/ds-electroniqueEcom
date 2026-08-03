@@ -1,6 +1,7 @@
 import { requireAdmin } from "@/lib/supabase/admin-guard";
 import { toggleAdmin } from "./actions";
 import { ShieldCheck, Shield } from "lucide-react";
+export const dynamic = "force-dynamic";
 
 export default async function AdminUtilisateursPage() {
   const { supabase, user } = await requireAdmin();

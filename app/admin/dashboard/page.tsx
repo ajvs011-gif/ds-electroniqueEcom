@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import Link from "next/link";
 import { Package, ShoppingBag, Users, Wallet } from "lucide-react";
 import { requireAdmin } from "@/lib/supabase/admin-guard";

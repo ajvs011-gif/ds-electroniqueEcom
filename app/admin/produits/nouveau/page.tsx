@@ -1,3 +1,5 @@
+
+export const dynamic = "force-dynamic";
 import Breadcrumb from "@/components/Breadcrumb";
 import { requireAdmin } from "@/lib/supabase/admin-guard";
 import ProductForm from "../ProductForm";

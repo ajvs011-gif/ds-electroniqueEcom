@@ -1,5 +1,6 @@
 import { requireAdmin } from "@/lib/supabase/admin-guard";
 import { formatFcfa } from "@/lib/format";
+export const dynamic = "force-dynamic";
 
 export default async function AdminStatistiquesPage() {
   const { supabase } = await requireAdmin();

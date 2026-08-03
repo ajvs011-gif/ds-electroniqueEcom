@@ -42,6 +42,7 @@ const slides: Slide[] = [
 ];
 
 export default function Hero() {
+  
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-ds-blue-dark to-ds-blue text-white">
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid md:grid-cols-[1.1fr_0.9fr] gap-10 items-center relative z-10">

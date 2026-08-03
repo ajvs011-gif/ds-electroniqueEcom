@@ -1,3 +1,5 @@
+
+export const dynamic = "force-dynamic";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import { requireAdmin } from "@/lib/supabase/admin-guard";
